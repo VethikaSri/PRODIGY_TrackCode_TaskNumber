@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: thistle;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.stopwatch{
+    text-align: center;
+    background: whitesmoke;
+    padding: 25px;
+    box-shadow: 0 0 10px rgb(120, 110, 110);
+}
+
+#display{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.controls button{
+    margin: 5px;
+    padding: 10 20px;
+    font-size: 1.2em;
+}
+
+#lap{
+    margin-top: 10px;
+}
